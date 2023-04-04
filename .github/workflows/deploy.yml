@@ -8,8 +8,8 @@ on:
 jobs:
   deploy:
     # runs-on: [self-hosted, Linux]
-    runs-on:
-      group: vitessce
+    runs-on: self-hosted
+      # group: vitessce
     name: Build React app and deploy to GitHub Pages
     steps:
       - uses: actions/checkout@v2
