@@ -8,14 +8,14 @@ on:
 jobs:
   deploy:
     # runs-on: [self-hosted, Linux]
-    runs-on: self-hosted
-      # group: vitessce
+    runs-on: 
+      group: Default
     name: Build React app and deploy to GitHub Pages
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 18
           registry-url: https://registry.npmjs.org/
       - name: Install NPM dependencies
         run: npm ci
