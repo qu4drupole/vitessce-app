@@ -7,9 +7,9 @@ on:
 
 jobs:
   deploy:
-    # runs-on: [self-hosted, Linux]
-    runs-on:
-      group: Default
+    runs-on: [self-hosted, Linux]
+    # runs-on:
+    #   group: Default
     name: Build React app and deploy to GitHub Pages
     steps:
       - uses: actions/checkout@v2
