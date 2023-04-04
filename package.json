@@ -1,5 +1,6 @@
 {
   "name": "vitessce-gh-pages",
+  "homepage":"https://github.research.chop.edu/CSCB-Core/vitessce-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
